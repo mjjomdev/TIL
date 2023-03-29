@@ -14,4 +14,4 @@
 ### `<noscript></noscript>`
 
 - 페이지에서 스크립트를 지원하지 않거나 브라우저가 스크립트를 비활성화한 경우 보여지는 HTML 구문이다.
-- <head> <body> 두 곳 모두에서 정의될 수 있지만 <head>에 속하면 <link>, <meta>, <style> 요소만 포함된다.
+- `<head>` `<body>` 두 곳 모두에서 정의될 수 있지만 `<head>`에 속하면 `<link>`, `<meta>`, `<style>` 요소만 포함된다.
