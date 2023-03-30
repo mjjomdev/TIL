@@ -8,4 +8,5 @@
 ## Category
 
 - [개발 관련](./Dev.md)
-<!-- - [영어 단어](./English.md) -->
+- [한국어 표현](./Korean.md)
+<!-- - [영어 표현](./English.md) -->
