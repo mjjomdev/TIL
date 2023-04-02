@@ -9,4 +9,4 @@
 
 - [개발 관련](./Dev.md)
 - [한국어 표현](./Korean.md)
-<!-- - [영어 표현](./English.md) -->
+- [영어 표현](./English.md)
