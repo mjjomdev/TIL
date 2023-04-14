@@ -9,6 +9,13 @@
 - 이전 페이지와 새 페이지의 스크린샷을 찍고 비교하는 방식이다.
 - CSS를 활용해서 효과를 커스텀할 수 있다. 자세한 내용은 [mdn](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API) 참고
 
+### Crypto
+
+- 외부 모듈 없이 UUID를 생성할 때 활용할 수 있다.
+- 모던 브라우저: `randomUUID()`
+- IE11: `getRandomValues()`
+- IE10 이하: 지원 가능한 Crypto 메서드가 없어 대안으로 `Math.random()`을 활용한다. 다만, `Math.random()`은 암호학상 안전하지 않아 timestamp, string 등을 조합해서 중복 가능성을 낮출 수 있다.
+
 ## HTML
 
 ### `<noscript></noscript>`
