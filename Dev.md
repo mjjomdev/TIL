@@ -16,6 +16,12 @@
 - IE11: `getRandomValues()`
 - IE10 이하: 지원 가능한 Crypto 메서드가 없어 대안으로 `Math.random()`을 활용한다. 다만, `Math.random()`은 암호학상 안전하지 않아 timestamp, string 등을 조합해서 중복 가능성을 낮출 수 있다.
 
+### CustomEvent
+
+- `Event()` 생성자와 동일하지만 커스텀을 명시적으로 나타낼 수 있고 두 번쨰 인수로 이벤트에 대한 옵션을 디테일하게 설정할 수 있다는 차이
+- 이벤트 버블링을 활성화하기 위해서는 옵션으로 `bubbles: true`를 반드시 넘겨야 한다.
+- [JavaScript Info](https://ko.javascript.info/dispatch-events) 참고
+
 ## HTML
 
 ### `<noscript></noscript>`
